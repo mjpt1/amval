@@ -1,0 +1,12 @@
+DirectoryIndex index.php index.html
+
+# جلوگیری از دسترسی مستقیم به فایل تنظیمات و پوشه‌های داخلی
+<FilesMatch "^config\.php$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_php.c>
+    php_flag display_errors off
+</IfModule>
+
+Options -Indexes
