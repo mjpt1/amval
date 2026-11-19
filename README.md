@@ -1,3 +1,32 @@
+<!-- gen:header -->
+<p align="center"><img src=".github/cover.svg" alt="Work &amp; Finance Manager" width="100%"></p>
+
+<h1 align="center">Work & Finance Manager</h1>
+<p align="center"><b>سیستم مدیریت کارها، کارفرماها و حساب‌ها روی هاست اشتراکی</b><br><i>Jobs, clients & balance tracking for cPanel hosting (PHP + MySQL)</i></p>
+<p align="center"><img alt="PHP" src="https://img.shields.io/badge/-PHP-10b981?style=for-the-badge"> <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-10b981?style=for-the-badge"> <img alt="cPanel" src="https://img.shields.io/badge/-cPanel-10b981?style=for-the-badge"></p>
+
+<div dir="rtl">
+
+## ✨ امکانات
+
+- سه نقش: مدیر، همکار و پورتال مشتری
+- وضعیت کار با درصد محاسبه در مانده حساب
+- ثبت پرداخت و محاسبه‌ی خودکار مانده
+- بدون Composer؛ نصب با چند کلیک
+
+</div>
+
+## 🚀 Quick start
+
+```bash
+Upload crm/ to public_html → open /install
+```
+
+---
+
+<!-- gen:docs -->
+## 📚 مستندات کامل · Full documentation
+
 # سیستم مدیریت کارها و امور مالی
 
 یک سیستم تحت وب ساده (PHP + MySQL) برای مدیریت کارفرماها، ثبت کارها (با قیمت و وضعیت انجام)، ثبت پرداخت‌ها و محاسبه خودکار مانده حساب. مناسب برای اجرا روی هاست اشتراکی با کنترل‌پنل cPanel، بدون نیاز به Composer یا نصب هیچ نرم‌افزار خاصی.
@@ -85,3 +114,8 @@
 ```
 
 این دقیقا همان منطقی است که در فایل اکسل قبلی شما استفاده شده بود (کار انجام‌شده ۱۰۰٪، در حال انجام ۵۰٪، شروع‌نشده ۰٪) با این تفاوت که این درصدها از صفحه «تنظیمات» در هر لحظه قابل تغییر هستند.
+
+---
+
+<p align="center">ساخته‌شده توسط <a href="https://mahsen81.ir"><b>محسن جباره‌اصل</b></a> — برنامه‌نویسی، طراحی سایت، ربات و هوش مصنوعی<br>
+Built by <a href="https://mahsen81.ir">Mohsen Jabbareh-Asl</a> · ⭐ اگر مفید بود، ستاره بدهید · Need a custom version? <a href="https://mahsen81.ir">Get in touch</a></p>
